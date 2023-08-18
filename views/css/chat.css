@@ -1,0 +1,109 @@
+#chat {
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.chat-header{
+    padding: 0.5rem;
+      
+}
+.chat-container{
+    border-radius: 10px;
+}
+.chat-content{
+    height: 50vh;
+    overflow-x: hidden;
+    padding: 10px;
+    background-image: url(./v882-sasi-34-e.jpg);
+}
+
+form {
+    display: relative;
+}
+
+input {
+    font-size: 1rem;
+    padding: 8px;
+    margin: 10px 5px;
+    -webkit-appearance: none;
+    appearance: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#message {
+    flex: 2;
+}
+.chat-icon{
+    text-align: end;
+}
+.chat-icon img{
+    width: 50px;
+}
+
+#chat-message {
+    border: 1px solid #ccc;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    overflow: auto;
+    
+}
+
+.message {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.message-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    color: #777;
+    border-radius: 5px;
+}
+
+.message-header p {
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.from {
+    font-weight: bold;
+}
+
+.created-at {
+    font-size: 9px;
+    color: #777;
+    font-style: italic;
+    margin-right: 10px;
+}
+
+.message-body {
+    background-color: #f7f7f7;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+@media only screen and (max-width: 500px) {
+    #chat {
+        width: 100vh;
+      
+    }
+}
+
+@media only screen and (min-width: 501px) {
+    #chat {
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width: 990px) {
+    #chat {
+        width: 30%;
+    }
+}
